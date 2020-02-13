@@ -1,0 +1,77 @@
+body{background-color:#000000;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	size: 15px}
+	
+
+h1{color:#a40000;
+	font-size: 45px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900}
+ 
+h2{color: #a40000;
+	size: 15px;
+	font-weight: lighter;
+	font-family: 'Oswald', sans-serif}
+
+a{text-decoration: none}
+
+a:hover {text-decoration: underline} 
+
+.text-justify{text-align: justify;
+				text-align:center;}
+
+.bouton{background-color: #a40000;
+		border-radius: 80px;
+		color:#000000;
+		height: 250px;
+		width: 125px;
+		padding: 10px 20px;
+		margin-top: 25px}
+
+/*constum design with class (99 of your design) */
+
+
+.container {
+	width: 1340px;}
+
+@media (max-width: 1200px){
+	.container {width: 1100px;}}
+
+
+@media (max-width: 1000px){
+	.container {width: 900px;}}
+
+
+@media (max-width: 600px){
+	.container {width: 500px;}}
+
+@media (max-width: 500px){
+	.container {width: 400px;}}
+
+
+@media (max-width: 400px){
+	.container {width: 300px;}}
+
+
+.card-white {text-align: center }
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px}
+
+.list-inline li{
+	list-style: none;
+	padding: 10px;
+	display: inline;
+	font-size: 30px}
+
+.list-inline a :hover{font-size:20px}
+
+.card-white {background:#212121;
+        margin: 70px;
+        padding: 30px;
+        box-shadow: 10px 10px 10px
+        rgba(252,252,252, 0.1)}
+
+.ecole {list-style: none;}
